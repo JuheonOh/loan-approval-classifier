@@ -300,10 +300,13 @@ model = nn.Sequential(
 
 - **ROC-AUC 점수**: 0.9619
   ![ROC-AUC](./image/ROC-AUC.png)
+  
 - **혼동 행렬 분석** 결과 시각화
   ![혼동행렬](./image/혼동행렬.png)
+  
 - **예측 확률 분포** 시각화
   ![예측확률분포](./image/예측확률분포.png)
+  
 - **F1 Score**: 0.7974
   ||정밀도|재현율|f1-score|샘플 수|
   |-|-|-|-|-|
