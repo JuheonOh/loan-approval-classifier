@@ -16,7 +16,7 @@
     - 대출정보: 대출금액, 대출목적, 금리, 소득대비대출비율
     - 신용정보: 신용기록기간, 신용점수, 이전연체여부
   - 출력 데이터: 대출 승인(1) 또는 거절(0)
-    ![head](./image/head.png)
+    <img src="./image/head.png" alt="head" title="head" />
 - **범주형 데이터**:
   - 성별, 최고교육수준, 주택소유상태, 대출목적, 이전대출연체여부
 - **데이터 분할**:
@@ -125,7 +125,7 @@ model = nn.Sequential(
 )
 ```
 
-![실험1](./image/실험1.png)
+<img src="./image/실험1.png" alt="실험1" title="실험1" />
 
 ```console
 에포크 330/1000: 학습 손실: 1.8567e-01, 검증 손실: 1.9231e-01, 최저 손실: 1.9214e-01
@@ -163,7 +163,7 @@ model = nn.Sequential(
 )
 ```
 
-![실험2](./image/실험2.png)
+<img src="./image/실험2.png" alt="실험2" title="실험2" />
 
 ```console
 에포크 110/1000: 학습 손실: 1.9415e-01, 검증 손실: 1.9620e-01, 최저 손실: 1.9309e-01
@@ -201,7 +201,7 @@ model = nn.Sequential(
 )
 ```
 
-![실험3](./image/실험3.png)
+<img src="./image/실험3.png" alt="실험3" title="실험3" />
 
 ```console
 에포크 140/1000: 학습 손실: 1.6769e-01, 검증 손실: 1.8659e-01, 최저 손실: 1.8404e-01
@@ -241,7 +241,7 @@ model = nn.Sequential(
 )
 ```
 
-![실험4](./image/실험4.png)
+<img src="./image/실험4.png" alt="실험4" title="실험4" />
 
 ```console
 에포크 170/1000: 학습 손실: 1.9143e-01, 검증 손실: 2.1045e-01, 최저 손실: 2.0818e-01
@@ -286,7 +286,7 @@ model = nn.Sequential(
 )
 ```
 
-![실험5](./image/실험5.png)
+<img src="./image/실험5.png" alt="실험5" title="실험5" />
 
 ```console
 에포크 110/1000: 학습 손실: 1.8615e-01, 검증 손실: 2.0161e-01, 최저 손실: 1.9857e-01
@@ -299,13 +299,14 @@ model = nn.Sequential(
 ## 5. 모델 성능
 
 - **ROC-AUC 점수**: 0.9619
-  ![ROC-AUC](./image/ROC-AUC.png)
+<img src="./image/ROC-AUC.png" alt="ROC-AUC" title="ROC-AUC" />
   
 - **혼동 행렬 분석** 결과 시각화
-  ![혼동행렬](./image/혼동행렬.png)
+<img src="./image/혼동행렬.png" alt="혼동행렬" title="혼동행렬" />
   
 - **예측 확률 분포** 시각화
-  ![예측확률분포](./image/예측확률분포.png)
+<img src="./image/예측확률분포.png" alt="예측확률분포" title="예측확률분포" />
+
   
 - **F1 Score**: 0.7974
   ||정밀도|재현율|f1-score|샘플 수|
